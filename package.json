@@ -1,11 +1,22 @@
 {
-  "name": "hello-what",
+  "name": "@synthet1c/hello-what",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a test package for publishing to scoped npm modules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synthet1c/hello-what.git"
+  },
+  "author": "Andrew Fountain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synthet1c/hello-what/issues"
+  },
+  "homepage": "https://github.com/synthet1c/hello-what#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
